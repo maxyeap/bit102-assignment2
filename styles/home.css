@@ -1,13 +1,13 @@
 .hero-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   flex-wrap: wrap;
   /* position: relative; */
   /* padding-top: 10rem; */
 }
 
-.hero-section h2 {
-  font-size: var(--text-4xl);
+.hero-section h1 {
+  font-size: var(--text-3xl);
   color: #77bce9;
 }
 
@@ -21,7 +21,8 @@
   margin-bottom: 1rem;
 }
 
-.hero-section a {
+.hero-section a,
+.gallery-container a {
   font-size: var(--text-1xl);
   font-weight: 600;
   padding: 0.5rem 2rem;
@@ -75,6 +76,34 @@
   max-width: 100%;
 }
 
+.about {
+  background-color: #fafafa;
+  background-image: url(assets/bg-image.jpeg);
+  padding: 3rem 0;
+}
+
+/* .about-container {
+  fl
+} */
+
+.about-text {
+  background-color: #77bce9;
+  padding: 2rem;
+  color: white;
+}
+
+.about-image img {
+  max-width: 100%;
+  display: block;
+}
+
+.about-container h3 {
+  font-size: var(--text-2xl);
+  text-align: center;
+  color: #ffba5d;
+  margin-bottom: 1rem;
+}
+
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
@@ -82,25 +111,21 @@
   align-content: center;
   align-items: center;
   justify-content: space-around;
+  padding: 3rem 0;
 }
 
-.gallery-container li {
+.gallery-container ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 2rem;
 }
 
-.gallery-container li img {
+.gallery-container ul img {
   max-width: 100%;
   height: auto;
 }
 
 @media (min-width: 768px) {
-  .hero-section {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
   .text-container,
   .image-container {
     flex: 5;
@@ -112,5 +137,43 @@
 
   .image-container {
     padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery-container ul {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .hero-section h1 {
+    font-size: var(--text-4xl);
+    color: #77bce9;
+  }
+
+  #hero-second-line {
+    font-size: var(--text-3xl);
+    color: #ffba5d;
+    margin-bottom: 1rem;
+  }
+
+  .hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 60rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5rem;
+  }
+
+  .about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-section {
+    max-width: 64rem;
   }
 }
