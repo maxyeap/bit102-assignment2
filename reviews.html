@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seven Seas Café & Bar - Reviews</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/reviews.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo__container">
+          <a href="#">
+            <img src="assets/company-logo.png" alt="logo" class="user__icon" />
+          </a>
+        </div>
+        <button class="mobile__navigation" onclick="mobileNav()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 menu__icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+        <nav class="navigation__container">
+          <ol class="navigation__links">
+            <li class="link__item left">
+              <a href="index.html" class="link__name underline">Home</a>
+            </li>
+            <li class="link__item left">
+              <a href="menu.html" class="link__name underline">Menu</a>
+            </li>
+            <li class="link__item left">
+              <a href="reviews.html" class="link__name underline">Reviews</a>
+            </li>
+            <li class="link__item">
+              <a href="index.html" class="link__name">
+                <img
+                  src="assets/company-logo.png"
+                  alt="Company logo with a hyperlink to the home page"
+                  class="user__icon"
+                />
+              </a>
+            </li>
+            <li class="link__item">
+              <a href="gallery.html" class="link__name underline">Gallery</a>
+            </li>
+            <li class="link__item">
+              <a href="contact.html" class="link__name underline">Contact Us</a>
+            </li>
+            <li class="link__item">
+              <a href="reservation.html" class="reservation">Reservation</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div id="mobileStickyHeader">
+        <div>
+          <a href="reservation.html">BOOK A TABLE</a>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <!-- Start Your Code Here -->
+
+      <hr />
+      <section>
+        <div class="title">
+          <h1>Reviews</h1>
+        </div>
+      </section>
+
+      <div class="review child-container">
+        <div class="img">
+          <img src="rev.img/shrimp.jpg" alt="Shrimp" width="200" height="200" />
+        </div>
+        <div>
+          <img src="rev.img/4.5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            I love shrimp! And I absolutely loved everything about this
+            particular shrimp! The taste, the plating, the mood around me... my
+            spirit is refreshed!
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img src="rev.img/drinks.jpg" alt="Drinks" width="200" height="200" />
+        </div>
+        <div>
+          <img src="rev.img/5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            My friends and I enjoyed our time at Seven Seas Café & Bar. The food
+            is reasonably priced and there's a good variety on the menu, so
+            everyone was able to find something they liked. The cocktails are
+            also very good - I highly recommend the passionfruit mojito!
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img src="rev.img/indoor.jpg" alt="Indoor" width="200" height="200" />
+        </div>
+        <div>
+          <img src="rev.img/5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            I could not decide where to sit! The warm outside with my cool drink
+            or the cool inside with a warm atmosphere. They should do something
+            about this! XD <br />
+            Leaving the "complaints" aside, I'm for sure leaving a 5-star
+            rating! The place was nice, the people were nice, the food was
+            delicious...definitely recommend this to anyone looking for a break
+            from their hectic life!
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img
+            src="rev.img/service.jpg"
+            alt="Service"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div>
+          <img src="rev.img/5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            The staff is friendly and attentive, and they go out of their way to
+            make sure that you're happy with your meal. Whether you're looking
+            for a place to watch the sunset or simply want to enjoy a good meal,
+            Seven Seas is worth checking out.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img src="rev.img/sunset.jpg" alt="Sunset" width="200" height="200" />
+        </div>
+        <div>
+          <img src="rev.img/5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            The Seven Seas Cafe and Bar is the perfect place to relax and enjoy
+            a delicious meal after a long day at the beach. The views from the
+            restaurant are simply stunning, and the outdoor seating area is the
+            perfect place to enjoy a meal while watching the sunset.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img src="rev.img/meals.jpg" alt="Meals" width="200" height="200" />
+        </div>
+        <div>
+          <img src="rev.img/5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            Seven Seas is the perfect place to unwind after a long day at the
+            beach. The casual atmosphere and stress-free vibe make it the
+            perfect place to enjoy a cold drink and some good conversation. The
+            menu offers a variety of dishes, as well as a selection of
+            cocktails. The prices are reasonable, and the portions are generous.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img
+            src="rev.img/service2.jpg"
+            alt="Service"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div>
+          <img src="rev.img/4.5stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            Amazing service! They provide picnic kits and even brought the
+            drinks out to our picnic spot at the beach. The atmosphere was
+            friendly, the location ideal...it truly was a relaxing weekend for
+            me and my friends.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="review child-container">
+        <div class="img">
+          <img
+            src="rev.img/family.jpg"
+            alt="Long Table"
+            width="200"
+            height="200"
+          />
+        </div>
+        <div>
+          <img src="rev.img/4stars.png" alt="Rating" style="width: 13em" />
+          <p>
+            We had a great time conversing over the delicious meals, the service
+            was great, the portions were great and all this came at a great
+            price! I must however, point out...we rarely find such long tables
+            for our large family gatherings. Appreciate it! :)
+          </p>
+        </div>
+      </div>
+
+      <hr />
+    </main>
+
+    <footer>
+      <div class="footer-content-container">
+        <p>&#169; 2022 Seven Seas Café & Bar</p>
+        <p class="footer-content-divider">|</p>
+        <a id="email" href="mailto:hello@sevenseas.com"
+          ><p>hello@sevenseas.com</p></a
+        >
+      </div>
+      <div class="icon-container">
+        <a href="https://facebook.com"
+          ><i class="fa fa-facebook" style="font-size: 24px"></i
+        ></a>
+        <a href="https://instagram.com"
+          ><i class="fa fa-instagram" style="font-size: 24px"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js" async defer></script>
+  </body>
+</html>

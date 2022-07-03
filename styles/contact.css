@@ -1,0 +1,104 @@
+form label {
+  display: block;
+  /* margin-bottom: 10px; */
+}
+/* 
+form label > span {
+  float: left;
+  width: 100px;
+  color: #ffffff;
+  font-size: 15px;
+} */
+
+form fieldset {
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #ffeed3;
+  padding: 20px;
+  background: #ffba5d;
+}
+
+form fieldset legend {
+  color: #ffffff;
+  border-radius: 5px 5px 0px 0px;
+  background: #ffba5d;
+  padding: 3px 8px 3px 8px;
+  font-size: 15px;
+}
+
+form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+form input,
+textarea {
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  outline: none;
+  color: #000000;
+  padding: 5px 8px 5px 8px;
+  box-shadow: inset 1px 1px 4px #ffba5d;
+  background: #ffffff;
+  /* width: 100%; */
+}
+
+form input[type="submit"],
+[type="button"] {
+  background: #ffba5d;
+  border: 1px solid #ffffff;
+  padding: 5px 15px 5px 15px;
+  color: #ffffff;
+  width: min-content;
+}
+
+.required {
+  color: red;
+  font-weight: normal;
+}
+
+.flex-field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-field {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+
+.contact-container {
+  max-width: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .contact-container {
+    max-width: 32rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact-container {
+    max-width: 42rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-container {
+    max-width: 60rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .contact-container {
+    max-width: 64rem;
+  }
+}

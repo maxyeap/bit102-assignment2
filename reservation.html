@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seven Seas Café & Bar - Reservation</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/reservation.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo__container">
+          <a href="#">
+            <img src="assets/company-logo.png" alt="logo" class="user__icon" />
+          </a>
+        </div>
+        <button class="mobile__navigation" onclick="mobileNav()">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 menu__icon"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16m-7 6h7"
+            />
+          </svg>
+        </button>
+        <nav class="navigation__container">
+          <ol class="navigation__links">
+            <li class="link__item left">
+              <a href="index.html" class="link__name underline">Home</a>
+            </li>
+            <li class="link__item left">
+              <a href="menu.html" class="link__name underline">Menu</a>
+            </li>
+            <li class="link__item left">
+              <a href="reviews.html" class="link__name underline">Reviews</a>
+            </li>
+            <li class="link__item">
+              <a href="index.html" class="link__name">
+                <img
+                  src="assets/company-logo.png"
+                  alt="Company logo with a hyperlink to the home page"
+                  class="user__icon"
+                />
+              </a>
+            </li>
+            <li class="link__item">
+              <a href="gallery.html" class="link__name underline">Gallery</a>
+            </li>
+            <li class="link__item">
+              <a href="contact.html" class="link__name underline">Contact Us</a>
+            </li>
+            <li class="link__item">
+              <a href="reservation.html" class="reservation">Reservation</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <div id="myLinks">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+      <div id="mobileStickyHeader">
+        <div>
+          <a href="reservation.html">BOOK A TABLE</a>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section>
+        <div class="title">
+          <h1>Reservations</h1>
+        </div>
+      </section>
+      <section>
+        <div class="reservation-container">
+          <iframe
+            src="https://eatapp.co/reserve/seven-seas-cafe-and-restaurant-5abcb1"
+            title="Iframe Example"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content-container">
+        <p>&#169; 2022 Seven Seas Café & Bar</p>
+        <p class="footer-content-divider">|</p>
+        <a id="email" href="mailto:hello@sevenseas.com"
+          ><p>hello@sevenseas.com</p></a
+        >
+      </div>
+      <div class="icon-container">
+        <a href="https://facebook.com"
+          ><i class="fa fa-facebook" style="font-size: 24px"></i
+        ></a>
+        <a href="https://instagram.com"
+          ><i class="fa fa-instagram" style="font-size: 24px"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js" async defer></script>
+  </body>
+</html>
