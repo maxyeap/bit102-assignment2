@@ -77,6 +77,8 @@ form input[type="submit"],
   max-width: 28rem;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 @media (min-width: 640px) {
